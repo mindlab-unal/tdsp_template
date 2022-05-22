@@ -14,11 +14,10 @@ Dentro de la base de datos hay aproximdamente 38500 imágenes organizadas de la 
 
 Cada caso es un paciente diferente y hay 85 en total. En cada carpeta de cada paciente hay una o más carpetas de los días que le hicieron escaneos a cada paciente, desde el día 0 hasta el día N de tratamiento. Y dentro de cada carpeta de cada día hay 100 o más imágenes de la resonancia realizada ese día. Cabe aclarar que hay algunas imágenes que están completamente negras pues es como el inicio de la resonancia y no hay un detalle a observar claramente durante este periodo.
 
-Aparte de las imagenes que se utilizaran para entrenar el modelo, hay un archivo csv llamado train, el cual consiste en 3 columnas; la primera columna es un ID que identifica cada imágen dentro de la base de datos, otra columna con la etiqueta de cada imagen, si es estomago grueso, delgado o el y finalmente una columna de segmentación. Esta columna es un RLE-codificado de pixeles con los valores de donde está la segmentación en la imagen identificada en cada fila. 
+Aparte de las imagenes que se utilizaran para entrenar el modelo, hay un archivo csv llamado train, el cual consiste en 3 columnas; la primera columna es un ID que identifica cada imágen dentro de la base de datos, otra columna con la etiqueta de cada imagen, si es estomago grueso, delgado o el y finalmente una columna de segmentación. Esta columna es un RLE-codificado con los valores de segmentación en la imagen identificada en cada fila. 
 
-## Table 1
+## Tabla 1
 
-Here you must describe the table
 
 | column | type | description |
 | --- | --- | --- |
