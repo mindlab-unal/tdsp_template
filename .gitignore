@@ -5,3 +5,4 @@ credentials*
 data/*
 .ipynb_checkpoints
 **/build/*
+scripts/data_acquisition/uw-madison-gi-tract-image-segmentation.zip
