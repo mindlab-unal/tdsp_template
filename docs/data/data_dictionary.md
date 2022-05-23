@@ -1,8 +1,6 @@
 # Data Dictionary
 
-In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
-
-# Database Name 1
+# UW-Madison GI Tract Image Segmentation
 
 Esta base de datos consiste en múltiples resonancias magnéticas de pacientes tratados en el Carbon Cancer Center de la universidad de Wisconsin Madison (UW-Madison). 
 Las resonancias son de pacientes que fueron tratados con radioterapia desde el 2015 por tener cancer en el estomago u organos cercanos. A estos pacientes se les realizó
