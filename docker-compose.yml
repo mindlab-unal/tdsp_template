@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  node-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: tdsp
+    image: nodejs
+    container_name: nodejs_tdsp_creek
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - .:/home/node/app
+      - ./nodemon.json:/home/node/app/nodemon.json
+      - /home/node/app/node_modules
+    expose:
+      - '80'
+    ports:
+      - '80:8080'
+volumes:
+  dbdata:

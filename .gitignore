@@ -5,3 +5,4 @@ credentials*
 data/*
 .ipynb_checkpoints
 **/build/*
+/node_modules
