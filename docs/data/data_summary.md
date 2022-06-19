@@ -17,3 +17,6 @@ La variable objetivo es la columna clase en el archivo csv. Tiene 3 valores dife
 ## Relationship between explanatory variables and target variable
 La otra columna que aparece en el dataset es la del id de cada imágen. Lo que se realizó en el notebook de eda fue separar el path de cada imagen, así como el caso o paciente, el día y el número de imágen. Estas variables ayudarán mas adelante a poder analizar los resultados obtenidos para la segmentación. 
 
+## Preprocesamiento del dataset
+Para el preprocesamiento se crearon columnas con el nombre de cada uno de los organos que se pretenden identificar; Estomago, intestino largo y grueso y una columna para guardar el path de la máscara creada para cada organo.
+Al tener dimensiones diferentes para cada imagen del dataset, se decidió normalizar el tamaño de estas a 256px x 256px. Además, se utilizó una función de cv2 para normalizar la imágen entre 0 y 255. Se guardaron las máscaras en una nueva ruta o path, y se muestran algunos ejemplos antes y después del preprocesamiento y la máscara creada para cada imágen. 
