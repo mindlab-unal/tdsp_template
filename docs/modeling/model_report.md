@@ -37,7 +37,7 @@ _Report describing the final model to be delivered - typically comprised of one 
   * El flujo del algoritmo utilizado se encuentra [acá](/scripts/training/model.png). El algoritmo se divide en tres partes, la primera parte es un downsample que contiene 8 capas convolucionales 2D, cada una con diferente cantidad de filtros. Después sigue un upsample, que es lo contrario a la etapa anterior, esta parte está compuesta por múltiples capas 2D transpuestas, 8 especificamente. En total, la cantidad de parámetros es 54,425,923. 
   La última parte consiste en un discriminador con 4 capas convolucionales 2D transpuestas y una final 2D normal. De ahí salen otros 2,786,883 parámetros
 * What learner(s) were used?
-  * 
+  * Se utilizó el optimizador Adam, y se creó un discriminador y se va calculando el gradiente entre la perdida del discriminador y las variables entrenables en las capas discriminantes. Estos grádientes se aplican a las capas generadoras. 
   
 * Learner hyper-parameters
   * Los hiper parámetros que se variaron fueron la cantidad de filtros en cada capa, y las funciones de activación, pues se utilizaron Leaky ReLu y ReLu. 
