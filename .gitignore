@@ -3,3 +3,4 @@
 env_vars*
 credentials*
 **/build/*
+scripts/data_acquisition/uw-madison-gi-tract-image-segmentation.zip
