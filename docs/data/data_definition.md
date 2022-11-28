@@ -22,9 +22,7 @@ This document provides a central hub for the raw data sources, the processed/tra
 
 | Feature Set Name | Input Dataset(s)  | Feature Script  |
 | ---:| ---: | ---: |
-| Feature labels | [Colonial_Images_labels](https://drive.google.com/file/d/1ByhZrQSgKJGJYYDaSRcx0gqYvT8orAyB/view?usp=share_link) | [Python script](`# Select labels with frequency higher than 250 and drop feature 255 code for "non gesture" 
-etiquetas_1=list(y_1[X_1>=250])
-etiquetas_1.remove(255)`|
+| Feature labels | [Colonial_Images_labels](https://drive.google.com/file/d/1ByhZrQSgKJGJYYDaSRcx0gqYvT8orAyB/view?usp=share_link) | [Python script](```# Select labels with frequency higher than 250 and drop feature 255 code for "non gesture" etiquetas_1=list(y_1[X_1>=250]) etiquetas_1.remove(255)```|
 
 
 * Feature labels summary. Dataset will be re-partitioned in a sample containing only a relevant group of features (labels), those containing more than 250 observations, except for the 'non-gesture' label. A total of 8,690 images for 12 labels resulted.
