@@ -1,37 +1,29 @@
 # Data and Feature Definitions
 
-This document provides a central hub for the raw data sources, the processed/transformed data, and feature sets. More details of each dataset is provided in the data summary report. 
+This document provides a central hub for the raw data sources, the processed/transformed data, and feature sets. 
 
-For each data, an individual report describing the data schema, the meaning of each data field, and other information that is helpful for understanding the data is provided. If the dataset is the output of processing/transforming/feature engineering existing data set(s), the names of the input data sets, and the links to scripts that are used to conduct the operation are also provided. 
-
-For each dataset, the links to the sample datasets in the _**Data**_ directory are also provided. 
-
-_**For ease of modifying this report, placeholder links are included in this page, for example a link to dataset 1, but they are just placeholders pointing to a non-existent page. These should be modified to point to the actual location.**_
 
 ## Raw Data Sources
 
-| Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
-| ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Brief description of its orignal location | Brief description of its destination location | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
-| Dataset 2 | Brief description of its orignal location | Brief description of its destination location | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
+| Dataset Name | Original Location   | Destination Location | Link to Report |
+| ---:| ---: | ---: | ---: |
+| Colonial_Images| The original dataset is the result of a collaborative historical project named Arca, of the Universidad de los Andes-Colombia  | Original Dataset is published in the book 'Los ingenios del pincel' | [book](https://losingeniosdelpincel.uniandes.edu.co/arca/) |
 
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
+* Dataset Colonial_Images summary. All paintings are labeled with their titles, main characters/categories, identified visual stories, authorship, place and probable dates of production, current location, among others. 
 
 ## Processed Data
-| Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
-| ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](link/to/dataset1/report), [Dataset2](link/to/dataset2/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
-| Processed Dataset 2 | [Dataset2](link/to/dataset2/report) |[script2.R](link/to/R/script/file/in/Code) | [Processed Dataset 2 Report](link/to/report2)|
-* Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
-* Processed Data2 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data2 Report.> 
+| Processed  | Input Dataset  | Data Processing Tools/Scripts | 
+| ---:| ---: | ---: | 
+| Processed Colonial_Images_labels | Excel file with gestures labels | [labels](https://drive.google.com/file/d/1ByhZrQSgKJGJYYDaSRcx0gqYvT8orAyB/view?usp=share_link)| 
+* Processed Colonial_Images_labels summary. 253 different types of gestures have been labeled to each image.
+
 
 ## Feature Sets
 
-| Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
-| ---:| ---: | ---: | ---: | 
-| Feature Set 1 | [Dataset1](link/to/dataset1/report), [Processed Dataset2](link/to/dataset2/report) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
-| Feature Set 2 | [Processed Dataset2](link/to/dataset2/report) |[SQL_Script2.sql](link/to/sql/script/file/in/Code) | [Feature Set2 Report](link/to/report2)|
+| Feature Set Name | Input Dataset(s)  | Feature Script  |
+| ---:| ---: | ---: |
+| Feature labels | [Colonial_Images_labels](https://drive.google.com/file/d/1ByhZrQSgKJGJYYDaSRcx0gqYvT8orAyB/view?usp=share_link) | [Python script](```# Select labels with frequency higher than 250 and drop feature 255 code for "non gesture" etiquetas_1=list(y_1[X_1>=250]) etiquetas_1.remove(255)```|
 
-* Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
-* Feature Set2 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set2 Report.> 
+
+* Feature labels summary. Dataset will be re-partitioned in a sample containing only a relevant group of features (labels), those containing more than 250 observations, except for the 'non-gesture' label. A total of 8,690 images for 12 labels resulted.
+
