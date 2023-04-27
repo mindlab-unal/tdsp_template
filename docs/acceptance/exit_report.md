@@ -1,62 +1,32 @@
-# Exit Report of Project <X> for Customer <Y>
+# Informe de salida
 
-Instructions: Template for exit criteria for data science projects. This is concise document that includes an overview of the entire project, including details of each stage and learning. If a section isn't applicable (e.g. project didn't include a ML model), simply mark that section as "Not applicable". Suggested length between 5-20 pages. Code should mostly be within code repository (not in this document).
+## Resumen Ejecutivo
 
-Customer: <Enter Customer Name\>
+Este informe describe los resultados del proyecto de machine learning y presenta los principales logros y lecciones aprendidas durante el proceso.
 
-Team Members: <Enter team member' names. Please also enter relevant parties names, such as team lead, Account team, Business stakeholders, etc.\>
+## Resultados del proyecto
 
-##	Overview
+- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
+- Evaluación del modelo final y comparación con el modelo base.
+- Descripción de los resultados y su relevancia para el negocio.
 
-<Executive summary of entire solution, brief non-technical overview\>
+## Lecciones aprendidas
 
-##	Business Domain
-<Industry, business domain of customer\>
+- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
+- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
+- Recomendaciones para futuros proyectos de machine learning.
 
-##	Business Problem
-<Business problem and exact use case(s), why it matters\>
+## Impacto del proyecto
 
-##	Data Processing
-<Schema of original datasets, how data was processed, final input data schema for model\>
+- Descripción del impacto del modelo en el negocio o en la industria.
+- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
 
-##	Modeling, Validation
-<Modeling techniques used, validation results, details of how validation conducted\>
+## Conclusiones
 
-##	Solution Architecture
-<Architecture of the solution, describe clearly whether this was actually implemented or a proposed architecture. Include diagram and relevant details for reproducing similar architecture. Include details of why this architecture was chosen versus other architectures that were considered, if relevant\>
+- Resumen de los resultados y principales logros del proyecto.
+- Conclusiones finales y recomendaciones para futuros proyectos.
 
-##	Benefits
-	
-###	Company Benefit (internal only. Double check if you want to share this with your customer)
-<What did our company gain from this engagement? ROI, revenue,  etc\>
+## Agradecimientos
 
-###	Customer Benefit
-What is the benefit (ROI, savings, productivity gains etc)  for the customer? If just POC, what is estimated ROI? If exact metrics are not available, why does it have impact for the customer?\>
-
-##	Learnings
-
-### 	Project Execution
-<Learnings around the customer engagement process\>
-
-### Data science / Engineering
-<Learnings related to data science/engineering, tips/tricks, etc\>
-
-
-### Domain
-<Learnings around the business domain, \>
-
-### Product
-<Learnings around the products and services utilized in the solution \>
-
-###	What's unique about this project, specific challenges
-<Specific issues or setup, unique things, specific challenges that had to be addressed during the engagement and how that was accomplished\>
-
-##	Links
-<Links to published case studies, etc.; Link to git repository where all code sits\>
-
-##	Next Steps
- 
-<Next steps. These should include milestones for follow-ups and who 'owns' this action. E.g. Post- Proof of Concept check-in on status on 12/1/2016 by X, monthly check-in meeting by Y, etc.\>
-
-## Appendix
-<Other material that seems relevant – try to keep non-appendix to <20 pages but more details can be included in appendix if needed\>
+- Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
+- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.
