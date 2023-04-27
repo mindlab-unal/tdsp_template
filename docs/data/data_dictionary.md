@@ -1,31 +1,38 @@
-# Data Dictionary
+# Diccionario de datos
 
-In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
+## Base de datos 1
 
-# Database Name 1
+**Agregar una descripción de la tabla o fuente de datos.
 
-Description of the database.
+| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| --- | --- | --- | --- | --- |
+| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 
-![UML Diagram](/file/uml/database1)
+- **Variable**: nombre de la variable.
+- **Descripción**: breve descripción de la variable.
+- **Tipo de dato**: tipo de dato que contiene la variable.
+- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
+- **Fuente de datos**: fuente de los datos de la variable.
 
-## Table 1
+## Base de datos 2
 
-Here you must describe the table
+**Agregar una descripción de la tabla o fuente de datos.
 
-| column | type | description |
-| --- | --- | --- |
-| col1 | INT | Example column |
+| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| --- | --- | --- | --- | --- |
+| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 
-# Database Name 2
+- **Variable**: nombre de la variable.
+- **Descripción**: breve descripción de la variable.
+- **Tipo de dato**: tipo de dato que contiene la variable.
+- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
+- **Fuente de datos**: fuente de los datos de la variable.
 
-Description of the database.
-
-![UML Diagram](/file/uml/database1)
-
-## Table 2
-
-Here you must describe the table
-
-| column | type | description |
-| --- | --- | --- |
-| col1 | INT | Example column |
