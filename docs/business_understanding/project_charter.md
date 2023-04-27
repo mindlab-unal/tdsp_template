@@ -1,54 +1,58 @@
-# Project Charter
+# Project Charter - Entendimiento del Negocio
 
-## Business background
+## Nombre del Proyecto
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+[Nombre del proyecto aquí]
 
-## Scope
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+## Objetivo del Proyecto
 
-## Personnel
-* Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
-	
-## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+[Descripción breve del objetivo del proyecto y por qué es importante]
 
-## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+## Alcance del Proyecto
 
-## Architecture
-* Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+### Incluye:
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+- [Descripción de los datos disponibles]
+- [Descripción de los resultados esperados]
+- [Criterios de éxito del proyecto]
 
-## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+### Excluye:
+
+- [Descripción de lo que no está incluido en el proyecto]
+
+## Metodología
+
+[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+
+## Cronograma
+
+| Etapa | Duración Estimada | Fechas |
+|------|---------|-------|
+| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
+| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
+| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
+| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
+| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+
+Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+
+## Equipo del Proyecto
+
+- [Nombre y cargo del líder del proyecto]
+- [Nombre y cargo de los miembros del equipo]
+
+## Presupuesto
+
+[Descripción del presupuesto asignado al proyecto]
+
+## Stakeholders
+
+- [Nombre y cargo de los stakeholders del proyecto]
+- [Descripción de la relación con los stakeholders]
+- [Expectativas de los stakeholders]
+
+## Aprobaciones
+
+- [Nombre y cargo del aprobador del proyecto]
+- [Firma del aprobador]
+- [Fecha de aprobación]
