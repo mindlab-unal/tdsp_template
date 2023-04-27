@@ -1,34 +1,25 @@
-# Final Model Report
-_Report describing the final model to be delivered - typically comprised of one or more of the models built during the life of the project_
+# Reporte del Modelo Final
 
-## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+## Resumen Ejecutivo
 
-## Solution Description
-* Simple solution architecture (Data sources, solution components, data flow)
-* What is output?
+En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
 
-## Data
-* Source
-* Data Schema
-* Sampling
-* Selection (dates, segments)
-* Stats (counts)
+## Descripción del Problema
 
-## Features
-* List of raw and derived features 
-* Importance ranking.
+En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
 
-## Algorithm
-* Description or images of data flow graph
-  * if AzureML, link to:
-    * Training experiment
-    * Scoring workflow
-* What learner(s) were used?
-* Learner hyper-parameters
+## Descripción del Modelo
 
-## Results
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+
+## Evaluación del Modelo
+
+En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+
+## Conclusiones y Recomendaciones
+
+En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+
+## Referencias
+
+En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.

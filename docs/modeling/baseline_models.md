@@ -1,42 +1,39 @@
-# Baseline Model Report
+# Reporte del Modelo Baseline
 
-_Baseline model is the the model a data scientist would train and evaluate quickly after he/she has the first (preliminary) feature set ready for the machine learning modeling. Through building the baseline model, the data scientist can have a quick assessment of the feasibility of the machine learning task._
+Este documento contiene los resultados del modelo baseline.
 
-> If using the Automated Modeling and Reporting tool, most of the sections below will be generated automatically from this tool. 
+## Descripción del modelo
 
-## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
 
-## Model Description
+## Variables de entrada
 
-* Models and Parameters
+Lista de las variables de entrada utilizadas en el modelo.
 
-	* Description or images of data flow graph
-  		* if AzureML, link to:
-    		* Training experiment
-    		* Scoring workflow
-	* What learner(s) were used?
-	* Learner hyper-parameters
+## Variable objetivo
 
+Nombre de la variable objetivo utilizada en el modelo.
 
-## Results (Model Performance)
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+## Evaluación del modelo
 
-## Model Understanding
+### Métricas de evaluación
 
-* Variable Importance (significance)
+Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
 
-* Insight Derived from the Model
+### Resultados de evaluación
 
-## Conclusion and Discussions for Next Steps
+Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
 
-* Conclusion on Feasibility Assessment of the Machine Learning Task
+## Análisis de los resultados
 
-* Discussion on Overfitting (If Applicable)
+Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
 
-* What other Features Can Be Generated from the Current Data
+## Conclusiones
 
-* What other Relevant Data Sources Are Available to Help the Modeling
+Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+
+## Referencias
+
+Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
+
+Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
