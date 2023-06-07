@@ -97,16 +97,13 @@ Acontinuacion se muestra el diagrama de la metodologia planteada
 ## Presupuesto
 
 [Descripción del presupuesto asignado al proyecto]
+|Concepto   |Monto  asignado|
+|------|---------------|
+|Desarrollo de software	|$10'000.000|
+|Recursos computacionales	|$3'500.000|
+|Infraestructura en la nube	|$5'000.000|
+|Personal y consultoría	|$5'00.000|
+|Contingencias y imprevistos	|$2'000.000|
+|Total  |	$ $35'500.000|
 
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
 
