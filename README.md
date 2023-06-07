@@ -9,3 +9,5 @@ Se proporciona las siguientes carpetas y archivos:
 * `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
 * `scripts`: esta carpeta debe contener los scripts/notebooks que se ejecutarán.
 * `pyproject.toml`: archivo de definición del proyecto en Python.
+
+## - La entreaga de la fase 1 seencuetra en la rama "sesion1" 
