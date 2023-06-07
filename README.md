@@ -1,8 +1,9 @@
-# Team Data Science Project Template
+# Sistema de reconocimiento de rostros en documentos que pueda clasificar si una imagen de rostro está superpuesta o no.
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+Objetivo del Proyecto
+El objetivo del proyecto es desarrollar un sistema de reconocimiento de rostros en documentos que pueda clasificar si una imagen de rostro está superpuesta o no. Esta clasificación es importante porque ayuda a garantizar la autenticidad y la integridad de los documentos que contienen imágenes de rostros.
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+Se proporciona las siguientes carpetas y archivos:
 
 * `src`: acá debe ir el código o implementación del proyecto en Python.
 * `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
