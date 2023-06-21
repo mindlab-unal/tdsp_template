@@ -12,6 +12,13 @@
 
 - [ ] Para el desarrollo del proyecto, se cuenta con un conjunto de datos privado almacenado en Amazon S3 o Amazon Simple Storage Service. Este conjunto de datos consta de 250 documentos reales y 250 imágenes superpuestas, cada una de las cuales ha sido etiquetada y clasificada.
 
+# imagen ejemplo de un docuemnto superpuesto, se han sensurado las parte sensibles del docuemnto aplicando un filtro gausiano 
+![methods](images/example_false.png)
+
+# imagen ejemplo de un docuemnto real,se han sensurado las parte sensibles del docuemnto aplicando un filtro gausiano 
+
+![methods](images/example_true.png)
+
 Debido a la sensibilidad de los datos y para garantizar la privacidad y confidencialidad, no se compartirá el conjunto de datos con terceros. El acceso y manejo de los datos se llevará a cabo siguiendo las políticas de seguridad y privacidad establecidas por la organización responsable del proyecto.
 
 ### Rutas de origen de datos
@@ -24,3 +31,4 @@ Debido a la sensibilidad de los datos y para garantizar la privacidad y confiden
 
 ### Descripcion preprocesamiento 
 - [ ] Se implementa una funcion en el archivo exploaracion_generacion_data.ipynb, despues de procesar las imegenes y cortas rolo los rotros se toma las imágenes de las carpetas "TRUE" y "FALSE", las escalará a un tamaño de 250x250 píxeles, las normalizará y realizará aumentación de datos. Luego, generará conjuntos de entrenamiento, prueba y validación con las proporciones mencionadas, mezclando la información de las dos carpetas.
+
