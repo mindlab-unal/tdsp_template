@@ -86,6 +86,5 @@ Explorar otras arquitecturas de modelos: Investigar arquitecturas de redes neuro
 
 En general, el modelo actual proporciona una base sólida para la clasificación de imágenes de documentos superpuestos o no superpuestos. Sin embargo, se recomienda realizar pruebas adicionales y ajustes para obtener un rendimiento óptimo en el contexto específico de aplicación.
 
-## Referencias
-
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+## archivo de entrenamiento
+El entrenamiento se realizo en un archivo scripts/model.ipynb
