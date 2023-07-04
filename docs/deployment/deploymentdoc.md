@@ -9,10 +9,14 @@
 Dockerfile: El archivo Dockerfile se encuentra en la ruta \src\img_super\Dockerfile. Este archivo contiene las instrucciones necesarias para construir la imagen del contenedor. En este caso, se utiliza la imagen base de Python 3.11-slim y se instalan las dependencias necesarias, como FastAPI, TensorFlow y otras bibliotecas requeridas por el modelo.
 
 requirements.txt: El archivo requirements.txt se encuentra en la ruta \src\img_super\requirements.txt. Este archivo enumera las dependencias y versiones específicas que deben instalarse en el entorno del contenedor. Al construir la imagen del contenedor, se utiliza este archivo para instalar las bibliotecas necesarias, como FastAPI, TensorFlow y otras dependencias.
+- **Diagrama de arquitectura:**
 
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+Diagrama de REST del servicio:
+![Diagrama de REST del servicio](images/svg.svg)
 
-![methods](images/svg.svg)
+Diagrama de despliegue y funcionamiento del servicio:
+![Diagrama de despliegue y funcionamiento del servicio](images/full-diagrama.svg)
+
 ## Código de despliegue
 
 - **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
