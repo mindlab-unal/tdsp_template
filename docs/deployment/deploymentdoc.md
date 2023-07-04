@@ -11,45 +11,8 @@ Dockerfile: El archivo Dockerfile se encuentra en la ruta \src\img_super\Dockerf
 requirements.txt: El archivo requirements.txt se encuentra en la ruta \src\img_super\requirements.txt. Este archivo enumera las dependencias y versiones específicas que deben instalarse en el entorno del contenedor. Al construir la imagen del contenedor, se utiliza este archivo para instalar las bibliotecas necesarias, como FastAPI, TensorFlow y otras dependencias.
 
 - **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
-<img src='https://g.gravizo.com/svg?
-    digraph G {
-        rankdir=LR;
-        
-        subgraph cluster_face {
-            label="/face Endpoint";
-            style=filled;
-            color="%23FFDDC1";
-            
-            input_data [label="input_data:\nImagen %28Base64%29", shape=box];
-            detection_nn [label="Red Neuronal de Detección", shape=box];
-            coordinates [label="Coordenadas", shape=box];
-            
-            input_data -> detection_nn;
-            detection_nn -> coordinates;
-        }
-        
-        subgraph cluster_super {
-            label="/super Endpoint";
-            style=filled;
-            color="%23B6E3FF";
-            
-            input_data [label="input_data:\nImagen %28Base64%29", shape=box];
-            detection_nn [label="Red Neuronal de Detección %28Faster%29", shape=box];
-            cropping [label="Recorte de Imagen", shape=box];
-            validation_cnn [label="Red Neuronal Convolutiva %28CNN%29", shape=box];
-            score [label="Puntuación", shape=box];
-            reco [label="Resultado %28TRUE/FALSE%29", shape=box];
-            coordinates [label="Coordenadas", shape=box];
-            
-            input_data -> detection_nn;
-            detection_nn -> cropping;
-            cropping -> validation_cnn;
-            validation_cnn -> score;
-            score -> reco;
-            validation_cnn -> coordinates;
-        }
-    }
-'>
+
+![methods](images/svg.svg)
 ## Código de despliegue
 
 - **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
