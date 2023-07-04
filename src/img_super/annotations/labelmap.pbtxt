@@ -1,0 +1,168 @@
+item {
+	id:1
+	name:'EC_T'
+}
+item {
+	id:2
+	name:'NAC_F'
+}
+item {
+	id:3
+	name:'SA_F'
+}
+item {
+	id:4
+	name:'S_F'
+}
+item {
+	id:5
+	name:'S_T'
+}
+item {
+	id:6
+	name:'F1_F'
+}
+item {
+	id:7
+	name:'N_T'
+}
+item {
+	id:8
+	name:'PA_F'
+}
+item {
+	id:9
+	name:'F_F'
+}
+item {
+	id:10
+	name:'E_F'
+}
+item {
+	id:11
+	name:'FC_T'
+}
+item {
+	id:12
+	name:'U_F'
+}
+item {
+	id:13
+	name:'U_T'
+}
+item {
+	id:14
+	name:'L_F'
+}
+item {
+	id:15
+	name:'NAC_T'
+}
+item {
+	id:16
+	name:'NTAR_F'
+}
+item {
+	id:17
+	name:'CHIP_T'
+}
+item {
+	id:18
+	name:'RP_F'
+}
+item {
+	id:19
+	name:'RP_T'
+}
+item {
+	id:20
+	name:'EC_F'
+}
+item {
+	id:21
+	name:'N_F'
+}
+item {
+	id:22
+	name:'F1_T'
+}
+item {
+	id:23
+	name:'F_T'
+}
+item {
+	id:24
+	name:'NTAR_T'
+}
+item {
+	id:25
+	name:'DO_T'
+}
+item {
+	id:26
+	name:'GV_T'
+}
+item {
+	id:27
+	name:'GV_F'
+}
+item {
+	id:28
+	name:'DO_F'
+}
+item {
+	id:29
+	name:'E_T'
+}
+item {
+	id:30
+	name:'FN_F'
+}
+item {
+	id:31
+	name:'CHIP_F'
+}
+item {
+	id:32
+	name:'CUI_F'
+}
+item {
+	id:33
+	name:'FN_T'
+}
+item {
+	id:34
+	name:'FE_T'
+}
+item {
+	id:35
+	name:'PA_T'
+}
+item {
+	id:36
+	name:'SELLO_F'
+}
+item {
+	id:37
+	name:'CUI_T'
+}
+item {
+	id:38
+	name:'FE_F'
+}
+item {
+	id:39
+	name:'SELLO_T'
+}
+item {
+	id:40
+	name:'SA_T'
+}
+item {
+	id:41
+	name:'FC_F'
+}
+item {
+	id:42
+	name:'L_T'
+}
