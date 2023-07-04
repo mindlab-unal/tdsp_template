@@ -3,3 +3,4 @@
 env_vars*
 credentials*
 **/build/*
+src/img_super/models/

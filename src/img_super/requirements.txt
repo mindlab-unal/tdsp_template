@@ -1,0 +1,11 @@
+fastapi==0.95.0
+matplotlib
+numpy
+opencv_python_headless
+pandas
+pydantic==1.10.5
+requests==2.28.2
+scikit_learn
+six==1.16.0
+tensorflow
+uvicorn==0.20.0
