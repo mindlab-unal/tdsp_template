@@ -1,6 +1,6 @@
-# Team Data Science Project Template
+# Predicción precios de combustibles en Colombia
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+El presente repositorio almacena una proyecto de ML donde se busca presentar una predicción de los precios de combustibles en Colombia basados en los datos entregados por el Ministerio de Minas y Energía.
 
 Esta plantilla proporciona las siguientes carpetas y archivos:
 
