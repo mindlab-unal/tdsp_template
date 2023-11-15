@@ -2,57 +2,37 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Predicción de precios de combustibles en Colombia
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+El objetivo de este proyecto es generar una herramienta que permita predecir a nivel de EDS (Estación de Servicio) el precio de los combustibles cómo el gas natural vehicular y los combustibles líquidos (corriente, extra y diesel).
 
 ## Alcance del Proyecto
 
-### Incluye:
+Para esta primera entrega, se contempla unciamente el uso de los datos correspondientes a gas natural vehicular, sin embargo, se espera incluir también los datos de combustibles líquidos que en estos momentos se encuentran en mantenimiento.
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+### Datos
+Los datos disponibles en esta primera iteración son 11.195 registros al 14 de noviembre de 2023 desde el 1 de enero de 2018. Esta base se va alimentando de manera diaria con los precios reportados por las diferentes EDS. Esta compuesto por 12 columnas asociadas a la fecha del registro, la ubicación del municipio de la EDS, su nombre y el precio publicado. Mayor información sobre este conjunto de datos se puede encontrar en [Link](https://www.datos.gov.co/Minas-y-Energ-a/Consulta-Precios-Promedio-de-Gas-Natural-Comprimid/he3q-86dn)
 
-### Excluye:
+### Resultados esperados
 
-- [Descripción de lo que no está incluido en el proyecto]
+Se espera obtener un modelo de pronóstico de los precios haciendo uso de técnicas de series temporales de manera que sea posible predecir con cierto nivel de confianza el precio en una EDS dada en un horizonte de tiempo definido.
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Se seguirá la metodología CRISP-DM para la exploración y modelamiento del problema, donde se tiene como variable objetivo el precio y será pronosticado utilziando técnicas de series temporales.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+| Entendimiento del negocio y carga de datos | 1 1/2 semanas | del 7 al 17 de noviembre |
+| Preprocesamiento, análisis exploratorio | 1/2 semana | del 18 al 21 de noviembre |
+| Modelamiento y extracción de características | 1 semana | del 22 al 28 de noviembre |
+| Despliegue | 1 semana | del 29 de noviembre al 5 de diciembre |
+| Evaluación y entrega final | 1/2 semanas | del 6 de diciembre al 8 de diciembre |
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
-
-## Presupuesto
-
-[Descripción del presupuesto asignado al proyecto]
-
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- Desarrollado por **Heiler Santiago Gómez Prieto**
